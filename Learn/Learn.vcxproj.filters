@@ -13,24 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\5장">
+      <UniqueIdentifier>{baf4d0ed-7adb-44f4-863f-dcdfd49b101e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Hello Window.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="include\glad\glad.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="helloWindow.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="vertex input.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="hellotriangle_git.cpp">
+    <ClCompile Include="HelloWindow.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="hellotriangle_git.cpp">
+      <Filter>소스 파일\5장</Filter>
+    </ClCompile>
     <ClCompile Include="rectangle_git.cpp">
+      <Filter>소스 파일\5장</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle_exe1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="traingle_exe2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
