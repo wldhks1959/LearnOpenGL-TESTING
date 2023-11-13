@@ -19,18 +19,21 @@ void processInput(GLFWwindow* window)
 int main()
 {
 	glfwInit();
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3); // OpenGL 3.3 버전 사용하겠다. 
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
+	// window 객체 생성 
 	GLFWwindow* window = glfwCreateWindow(800, 600, "LearnOpenGL", NULL, NULL);
 	if (window == NULL)
 	{
 		cout << "Failed to create GLFW window" << endl;
 		return -1;
 	}
-	glfwMakeContextCurrent(window);
+	glfwMakeContextCurrent(window); //window 객체 주소로 context 생성 
 
+
+	// window 객체가 제대로 불러와지지 않는다면 
 	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
 	{
 		cout << "Failed to initailize GLAD" << endl;
@@ -54,7 +57,6 @@ int main()
 		glClear(GL_COLOR_BUFFER_BIT);
 	}
 
-
-	glfwTerminate();
+	glfwTerminate(); // 리소스 제거.
 	return 0;
 }

@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\5장">
       <UniqueIdentifier>{baf4d0ed-7adb-44f4-863f-dcdfd49b101e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\6장">
+      <UniqueIdentifier>{51cd7839-dc3c-4171-a79d-bbb05bdbb10a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="include\glad\glad.c">
@@ -33,11 +36,39 @@
     <ClCompile Include="rectangle_git.cpp">
       <Filter>소스 파일\5장</Filter>
     </ClCompile>
-    <ClCompile Include="triangle_exe1.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="triangle_exe3.cpp">
+      <Filter>소스 파일\5장</Filter>
     </ClCompile>
     <ClCompile Include="traingle_exe2.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\5장</Filter>
     </ClCompile>
+    <ClCompile Include="triangle_exe1.cpp">
+      <Filter>소스 파일\5장</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl.cpp">
+      <Filter>소스 파일\6장</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders_interpolation.cpp">
+      <Filter>소스 파일\6장</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_uniform.cpp">
+      <Filter>소스 파일\6장</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders_class.cpp">
+      <Filter>소스 파일\6장</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader.vs">
+      <Filter>헤더 파일</Filter>
+    </None>
+    <None Include="shader.fs">
+      <Filter>헤더 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
