@@ -13,62 +13,394 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\5장">
+    <Filter Include="소스 파일\set">
+      <UniqueIdentifier>{a5b87296-1992-4994-a045-d2ae8ce4dc83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\shader">
+      <UniqueIdentifier>{f09aeef0-87cd-42f4-b1a3-19e4642af8fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\7장 texture">
+      <UniqueIdentifier>{d3a18b7a-fd41-4b1f-a97f-7da63b74e201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\6장 shader">
+      <UniqueIdentifier>{51cd7839-dc3c-4171-a79d-bbb05bdbb10a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5장 helloTriangle">
       <UniqueIdentifier>{baf4d0ed-7adb-44f4-863f-dcdfd49b101e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\6장">
-      <UniqueIdentifier>{51cd7839-dc3c-4171-a79d-bbb05bdbb10a}</UniqueIdentifier>
+    <Filter Include="리소스 파일\texture">
+      <UniqueIdentifier>{405ac81b-c7dc-41cb-9055-278360e0d8e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\8장 transformations">
+      <UniqueIdentifier>{cf791dbd-6bda-43db-9d6a-8fc1614ff8f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\transform">
+      <UniqueIdentifier>{1f0001ac-da25-4548-86b9-9674b2a06e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\9장 coordinate systems">
+      <UniqueIdentifier>{b23be14f-5252-49f7-92c8-e19e016a70ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\coordinate">
+      <UniqueIdentifier>{cde01358-61cd-417e-87d0-13d462f4f47e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10장 camera">
+      <UniqueIdentifier>{e7bdc183-2d16-4400-a7c3-95f7b4a7bcda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\camera">
+      <UniqueIdentifier>{36b69733-f98a-48b9-9fab-225ada4c3153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\12장 colors">
+      <UniqueIdentifier>{3f258efb-5764-4910-a71d-480bf3071d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\colors">
+      <UniqueIdentifier>{83a68972-64f1-4320-9900-d0119dbb3270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\13장 basic lighting">
+      <UniqueIdentifier>{ec33a8cd-c30c-4fe2-b9fe-9d996e7dc7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\basic lighting">
+      <UniqueIdentifier>{ac094622-babe-43e7-8542-04d6c32ec56f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\14장 materials">
+      <UniqueIdentifier>{39a9e8de-03ac-4ae8-b822-55f9527851f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\material">
+      <UniqueIdentifier>{bb8cd78b-ed21-4d1f-81bc-a561cf03f5b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\15장 lighting">
+      <UniqueIdentifier>{09c5fcd3-fd40-4c03-b90f-0652b02e2474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\lighting">
+      <UniqueIdentifier>{8b3f3373-2878-4246-86b2-96bb062fac6d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="include\glad\glad.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="vertex input.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="HelloWindow.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="hellotriangle_git.cpp">
-      <Filter>소스 파일\5장</Filter>
+    <ClCompile Include="helloTriangle.cpp">
+      <Filter>소스 파일\5장 helloTriangle</Filter>
     </ClCompile>
-    <ClCompile Include="rectangle_git.cpp">
-      <Filter>소스 파일\5장</Filter>
+    <ClCompile Include="rectangle.cpp">
+      <Filter>소스 파일\5장 helloTriangle</Filter>
     </ClCompile>
     <ClCompile Include="triangle_exe3.cpp">
-      <Filter>소스 파일\5장</Filter>
+      <Filter>소스 파일\5장 helloTriangle</Filter>
     </ClCompile>
-    <ClCompile Include="traingle_exe2.cpp">
-      <Filter>소스 파일\5장</Filter>
-    </ClCompile>
-    <ClCompile Include="triangle_exe1.cpp">
-      <Filter>소스 파일\5장</Filter>
-    </ClCompile>
-    <ClCompile Include="glsl.cpp">
-      <Filter>소스 파일\6장</Filter>
+    <ClCompile Include="triangle_exe2.cpp">
+      <Filter>소스 파일\5장 helloTriangle</Filter>
     </ClCompile>
     <ClCompile Include="shaders_interpolation.cpp">
-      <Filter>소스 파일\6장</Filter>
+      <Filter>소스 파일\6장 shader</Filter>
     </ClCompile>
     <ClCompile Include="shader_uniform.cpp">
-      <Filter>소스 파일\6장</Filter>
+      <Filter>소스 파일\6장 shader</Filter>
     </ClCompile>
-    <ClCompile Include="shaders_class.cpp">
-      <Filter>소스 파일\6장</Filter>
+    <ClCompile Include="include\glad\glad.c">
+      <Filter>소스 파일\set</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_exe1.cpp">
+      <Filter>소스 파일\6장 shader</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>소스 파일\set</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_exe2.cpp">
+      <Filter>소스 파일\6장 shader</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_exe3.cpp">
+      <Filter>소스 파일\6장 shader</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_uniform2.cpp">
+      <Filter>소스 파일\6장 shader</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle_exe1.cpp">
+      <Filter>소스 파일\5장 helloTriangle</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>소스 파일\7장 texture</Filter>
+    </ClCompile>
+    <ClCompile Include="texture2.cpp">
+      <Filter>소스 파일\7장 texture</Filter>
+    </ClCompile>
+    <ClCompile Include="texture_exe1.cpp">
+      <Filter>소스 파일\7장 texture</Filter>
+    </ClCompile>
+    <ClCompile Include="texture_exe2.cpp">
+      <Filter>소스 파일\7장 texture</Filter>
+    </ClCompile>
+    <ClCompile Include="texture_exe3.cpp">
+      <Filter>소스 파일\7장 texture</Filter>
+    </ClCompile>
+    <ClCompile Include="texture_exe4.cpp">
+      <Filter>소스 파일\7장 texture</Filter>
+    </ClCompile>
+    <ClCompile Include="texture_rainbow.cpp">
+      <Filter>소스 파일\7장 texture</Filter>
+    </ClCompile>
+    <ClCompile Include="transformations.cpp">
+      <Filter>소스 파일\8장 transformations</Filter>
+    </ClCompile>
+    <ClCompile Include="transform_exe1.cpp">
+      <Filter>소스 파일\8장 transformations</Filter>
+    </ClCompile>
+    <ClCompile Include="transform_exe2.cpp">
+      <Filter>소스 파일\8장 transformations</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_systems.cpp">
+      <Filter>소스 파일\9장 coordinate systems</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_systems_depth.cpp">
+      <Filter>소스 파일\9장 coordinate systems</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_systems_multiple.cpp">
+      <Filter>소스 파일\9장 coordinate systems</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_systems_exe3.cpp">
+      <Filter>소스 파일\9장 coordinate systems</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_systems_non-depth.cpp">
+      <Filter>소스 파일\9장 coordinate systems</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_systems_exe1.cpp">
+      <Filter>소스 파일\9장 coordinate systems</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_systems_exe2.cpp">
+      <Filter>소스 파일\9장 coordinate systems</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_circle.cpp">
+      <Filter>소스 파일\10장 camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_keyboard.cpp">
+      <Filter>소스 파일\10장 camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_mouse_zoom.cpp">
+      <Filter>소스 파일\10장 camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_new.cpp">
+      <Filter>소스 파일\10장 camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_exe1.cpp">
+      <Filter>소스 파일\10장 camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_exe2.cpp">
+      <Filter>소스 파일\10장 camera</Filter>
+    </ClCompile>
+    <ClCompile Include="colors.cpp">
+      <Filter>소스 파일\12장 colors</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_lighting_diffuse.cpp">
+      <Filter>소스 파일\13장 basic lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="specular.cpp">
+      <Filter>소스 파일\13장 basic lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="light_exe1.cpp">
+      <Filter>소스 파일\13장 basic lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="light_exe2.cpp">
+      <Filter>소스 파일\13장 basic lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="light_exe3.cpp">
+      <Filter>소스 파일\13장 basic lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>소스 파일\14장 materials</Filter>
+    </ClCompile>
+    <ClCompile Include="material_exe1.cpp">
+      <Filter>소스 파일\14장 materials</Filter>
+    </ClCompile>
+    <ClCompile Include="lighting_maps_diffuse.cpp">
+      <Filter>소스 파일\15장 lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="lighting_maps_specular.cpp">
+      <Filter>소스 파일\15장 lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="lighting_maps_exe2.cpp">
+      <Filter>소스 파일\15장 lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="lighting_maps_exe4.cpp">
+      <Filter>소스 파일\15장 lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="material2.cpp">
+      <Filter>소스 파일\14장 materials</Filter>
+    </ClCompile>
+    <ClCompile Include="lighting_maps_exe3.cpp">
+      <Filter>소스 파일\15장 lighting</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader.vs">
-      <Filter>헤더 파일</Filter>
+    <None Include="shader.frag">
+      <Filter>리소스 파일\shader</Filter>
     </None>
-    <None Include="shader.fs">
-      <Filter>헤더 파일</Filter>
+    <None Include="shader.vert">
+      <Filter>리소스 파일\shader</Filter>
+    </None>
+    <None Include="texture.frag">
+      <Filter>리소스 파일\texture</Filter>
+    </None>
+    <None Include="texture.vert">
+      <Filter>리소스 파일\texture</Filter>
+    </None>
+    <None Include="texture2.frag">
+      <Filter>리소스 파일\texture</Filter>
+    </None>
+    <None Include="texture_exe1.frag">
+      <Filter>리소스 파일\texture</Filter>
+    </None>
+    <None Include="texture_exe2.frag">
+      <Filter>리소스 파일\texture</Filter>
+    </None>
+    <None Include="texture_exe2.vert">
+      <Filter>리소스 파일\texture</Filter>
+    </None>
+    <None Include="texture_exe4.vert">
+      <Filter>리소스 파일\texture</Filter>
+    </None>
+    <None Include="texture_exe4.frag">
+      <Filter>리소스 파일\texture</Filter>
+    </None>
+    <None Include="texture_exe3.vert">
+      <Filter>리소스 파일\texture</Filter>
+    </None>
+    <None Include="texture_exe3.frag">
+      <Filter>리소스 파일\texture</Filter>
+    </None>
+    <None Include="texture_rainbow.frag">
+      <Filter>리소스 파일\texture</Filter>
+    </None>
+    <None Include="transform.vert">
+      <Filter>리소스 파일\transform</Filter>
+    </None>
+    <None Include="transform.frag">
+      <Filter>리소스 파일\transform</Filter>
+    </None>
+    <None Include="shader_exe2.frag">
+      <Filter>리소스 파일\shader</Filter>
+    </None>
+    <None Include="shader_exe2.vert">
+      <Filter>리소스 파일\shader</Filter>
+    </None>
+    <None Include="shader_exe3.vert">
+      <Filter>리소스 파일\shader</Filter>
+    </None>
+    <None Include="shader_exe3.frag">
+      <Filter>리소스 파일\shader</Filter>
+    </None>
+    <None Include="coordinate.frag">
+      <Filter>리소스 파일\coordinate</Filter>
+    </None>
+    <None Include="coordinate.vert">
+      <Filter>리소스 파일\coordinate</Filter>
+    </None>
+    <None Include="coordinate_multi.vert">
+      <Filter>리소스 파일\coordinate</Filter>
+    </None>
+    <None Include="camera.vert">
+      <Filter>리소스 파일\camera</Filter>
+    </None>
+    <None Include="camera.frag">
+      <Filter>리소스 파일\camera</Filter>
+    </None>
+    <None Include="colors.frag">
+      <Filter>리소스 파일\colors</Filter>
+    </None>
+    <None Include="colors.vert">
+      <Filter>리소스 파일\colors</Filter>
+    </None>
+    <None Include="light_cube.vert">
+      <Filter>리소스 파일\colors</Filter>
+    </None>
+    <None Include="light_cube.frag">
+      <Filter>리소스 파일\colors</Filter>
+    </None>
+    <None Include="basic_lighting.frag">
+      <Filter>리소스 파일\basic lighting</Filter>
+    </None>
+    <None Include="basic_lighting.vert">
+      <Filter>리소스 파일\basic lighting</Filter>
+    </None>
+    <None Include="specular.vert">
+      <Filter>리소스 파일\basic lighting</Filter>
+    </None>
+    <None Include="specular.frag">
+      <Filter>리소스 파일\basic lighting</Filter>
+    </None>
+    <None Include="light_exe2.vert">
+      <Filter>리소스 파일\basic lighting</Filter>
+    </None>
+    <None Include="light_exe2.frag">
+      <Filter>리소스 파일\basic lighting</Filter>
+    </None>
+    <None Include="light_exe3.vert">
+      <Filter>리소스 파일\basic lighting</Filter>
+    </None>
+    <None Include="light_exe3.frag">
+      <Filter>리소스 파일\basic lighting</Filter>
+    </None>
+    <None Include="material.frag">
+      <Filter>리소스 파일\material</Filter>
+    </None>
+    <None Include="material.vert">
+      <Filter>리소스 파일\material</Filter>
+    </None>
+    <None Include="material_exe1.frag">
+      <Filter>리소스 파일\material</Filter>
+    </None>
+    <None Include="material_exe1.vert">
+      <Filter>리소스 파일\material</Filter>
+    </None>
+    <None Include="lighting_maps.frag">
+      <Filter>리소스 파일\lighting</Filter>
+    </None>
+    <None Include="lighting_maps.vert">
+      <Filter>리소스 파일\lighting</Filter>
+    </None>
+    <None Include="lighting_maps_spec.frag">
+      <Filter>리소스 파일\lighting</Filter>
+    </None>
+    <None Include="lighting_maps_spec.vert">
+      <Filter>리소스 파일\lighting</Filter>
+    </None>
+    <None Include="lighting_maps_exe2.frag">
+      <Filter>리소스 파일\lighting</Filter>
+    </None>
+    <None Include="lighting_maps_exe4.frag">
+      <Filter>리소스 파일\lighting</Filter>
+    </None>
+    <None Include="lighting_maps_exe4.vert">
+      <Filter>리소스 파일\lighting</Filter>
+    </None>
+    <None Include="light_cube_material.frag">
+      <Filter>리소스 파일\material</Filter>
+    </None>
+    <None Include="light_cube_material.vert">
+      <Filter>리소스 파일\material</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="shader2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\OneDrive - 동아대학교\서지완\바탕 화면\awesomeface.png">
+      <Filter>리소스 파일\texture</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive - 동아대학교\서지완\바탕 화면\LearnOpenGL_src\resource\container.jpg">
+      <Filter>리소스 파일\texture</Filter>
+    </Image>
   </ItemGroup>
 </Project>
